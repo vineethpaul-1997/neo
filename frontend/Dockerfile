@@ -7,7 +7,7 @@ RUN rm /etc/nginx/conf.d/default.conf
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # copy frontend files
-COPY html/ /usr/share/nginx/html/
+COPY login.html/ /usr/share/nginx/html/
 
 EXPOSE 80
 
